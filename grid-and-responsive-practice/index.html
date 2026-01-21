@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>grid practice</title>
+</head>
+
+<body>
+  <section class="lg:flex-row  flex flex-col-reverse w-full h-full ">
+    <!-- text -->
+    <div class="bg-white   flex-col h-full w-full">
+      <div class=" relative sm:mt-0 -mt-35 z-10  text-black font-sans p-4 flex flex flex-col gap-2 text-xl   ">
+        <p class="text-base font-medium sm:text-black text-white  ">Entire house</p>
+        <h1 class="text-3xl font-bold sm:mb-0 mb-12 text-white sm:text-black">Beach House on Lake Huron</h1>
+        <div class="flex gap-2 text-[#F751A9] font-medium mb-2">
+          <div><i class="fa-solid fa-star "></i></div>
+          <span>2.66</span>
+          <p class="text-black mr-2">
+            (128 reviews)
+          </p>
+
+          <button>.Bayfield, ON</button>
+        </div>
+        <p>This sunny and spacious room is for those traveling light and looking for a comfy and cozy place to lay their
+          head for a night...</p>
+
+        <div class="flex flex-col gap-4">
+          <button class="size-fit text-[#F751A9]">Show more</button>
+          <button class=" py-3 px-6 bg-[#F751A9] size-fit rounded-lg text-white cursor-pointer">Check
+            availability</button>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- img -->
+
+    <div class=" relative grid grid-cols-12 xl:grid-cols-12 xl:grid-rows-2 w-full h-full rounded-lg  ">
+      <div class="absolute top-0 left-0 w-full h-full z-2 bg-linear-to-b from-transparent via-transparent to-black/80 sm:hidden"></div> 
+
+      <img src="/img/img-1.png" alt=""
+        class="col-span-12 xl:col-span-6 xl:row-span-2 lg:col-span-12 md:col-span-6 sm:col-span-6 w-full h-full  objcet-cover border-4 border-white rounded-lg ">
+      <img src="/img/img-2.png" alt=""
+        class="xl:col-span-3 lg:col-span-6 sm:col-span-6 md:col-span-6 w-full h-full border-4 border-white rounded-lg sm:block hidden">
+      <img src="/img/img-3.png" alt=""
+        class="xl:col-span-3 lg:col-span-6  w-full h-full border-4 border-white rounded-lg hidden lg:block">
+      <img src="/img/img-4.png" alt=""
+        class="xl:col-span-3 w-full h-full border-4 border-white rounded-lg xl:block hidden">
+      <img src="/img/img-5.png" alt=""
+        class="xl:col-span-3 w-full h-full border-4 border-white rounded-lg xl:block hidden ">
+    </div>
+  </section>
+
+
+</body>
+
+</html>

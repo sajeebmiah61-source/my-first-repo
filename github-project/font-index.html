@@ -12,19 +12,20 @@
 </head>
 
 <body>
-    <header class="bg-[#D7D7D7] ">
-        <nav class=" flex items-center justify-around max-w-[1280px] w-full ">
-            <div class="">
+    <header class="bg-[#D7D7D7]">
+        <nav class=" w-full flex items-center justify-around xl:w-full w-full">
+            <div class=" sm:w-[50px] w-[40px]">
                 <img src="./img/logo 1.svg" alt="" class="mr-50">
             </div>
             <div>
-                <ul class="flex gap-8 items-center">
+                <ul class="flex gap-8 items-center lg:text-xl md:text-base sm:text-xs text-[8px]">
                     <li class=><a href="">About me</a></li>
                     <li><a href="">Skills</a></li>
                     <li><a href="">Portfolio</a></li>
                     <button
-                        class="px-6 py-2 bg-white text-black rounded-3xl text-base cursor-pointer hover:bg-blue-400 duration-800 ease-in-out font-bold ">CONTRACT ME
-                        </button>
+                        class=" lg:text-xl sm:text-sm text-[6px] text:text-xs  px-6 py-1  bg-white text-black rounded-3xl text-base cursor-pointer hover:bg-blue-400 duration-800 ease-in-out font-bold ">CONTRACT
+                        ME
+                    </button>
 
                 </ul>
             </div>
@@ -34,35 +35,44 @@
 
     <!-- hero section start -->
     <main>
-        <section>
-            <div class="max-w-[1280px] w-full flex items-center justify-around">
+        <section class="  w-full px-3">
+            <div class="  flex items-center justity-between">
                 <div class="mx-auto mt-20">
-                    <h2 class="font-bold text-[40px] mb-10">Hi, I am</h2>
-                    <h1 class="font-bold md:text-[80px] text-[20px] ">Tomasz Gajda</h1>
-                    <p class="exterbold text-[25px] text-[#909090] -mt-8 ml-3">Front-end Developer / UI Designer</p>
+                    <h2
+                        class="font-bold text-xl lg:text-4xl md:text-4xl  xl:text-5xl  xl:mb-10 md:mb-7 sm:mb-5">
+                        Hi, I am</h2>
+                    <h1 class="font-bold lg:text-6xl md:text-5xl xl:text-7xl sm:text-3xl text-2xl ">Tomasz Gajda</h1>
+                    <p
+                        class="font-exterbold text-[12px]  xl:text-4xl md:text-2xl sm:text-lg text-[#909090] -mt-2 xl:ml-3 sm:ml-1">
+                        Front-end Developer / UI
+                        Designer</p>
 
                 </div>
-                <div class="size-[500px] ">
-                    <img src="./img/image main section17.svg" alt="">
+                <div class="  ">
+                    <img src="./img/image main section17.svg" alt="" class="xl:size-[500px] lg:size-[400px] md:size-[300px] sm:size-[200px] size-[180px]">
                 </div>
             </div>
 
-            <div class="text-3xl ml-32 mb-20 ">
+            <div class="xl:text-3xl xl:ml-28 lg:ml-28 md:ml-10 sm:ml-15 ml-12 ">
                 <i class=" duration-400 hover:text-green-500 fa-duotone fa-regular fa-at"></i>
                 <i class="duration-400 hover:text-green-500 fa-brands fa-github"></i>
                 <i class="duration-400 hover:text-green-500 fa-brands fa-linkedin"></i>
             </div>
+
+
         </section>
         <!-- hero section end -->
 
         <!-- about section start -->
-        <section class="max-w-[1280px] h-lvh bg-[#E5E5E5] ">
+        <section class="max-w-[1280px] h-screen bg-[#E5E5E5] ">
             <div class=" flex items-center flex-col">
                 <div class="flex items-center flex-col">
                     <button
                         class=" px-14 py-3 border-4 border-black-600 duration-300 hover:border-green-500 text-3xl  font-bold uppercase mt-18 tracking-[8px] ">about
                         me</button>
-                    <p class="text-base font-Sans mt-10 mb-12  w-[663px]    ">Nulla in velit a metus rhoncus tempus.
+                    <p
+                        class="text-base font-Sans mt-10 mb-12  xl:max-w-[663px] md:max-w-[663px] sm:max-w-[400px] max-w-[400px]">
+                        Nulla in velit a metus rhoncus tempus.
                         Nulla congue nulla vel sem varius finibus. Sed
                         ornare sit amet lorem sed viverra. In vel urna quis libero viverra facilisis ut ac est.</p>
 
@@ -75,21 +85,21 @@
         </section>
 
 
-        <section class="max-w-[1280px] h-lvh bg-[#E5E5E5] -mt-25 ">
+        <section class="max-w-[1280px] h-screen bg-[#E5E5E5] -mt-30">
+                                                                                                                       
 
-
-            <div class=" ">
-                <div class="flex gap-10 items-center justify-center">
-                    <div class="w-[450px]">
-                        <img src="./img/about img 2.svg" alt="" class="">
-                        <h1 class="text-[22px] font-bold">DESIGN</h1>
+            <div class="">
+                <div class="flex  md:flex-row flex-col  sm:flex-col gap-8 items-center justify-center p-2">
+                    <div class="max-w-[450px] flex flex-col justify-center  items-center">
+                        <img src="./img/about img 2.svg" alt="" class=" ">
+                        <h1 class="text-[22px] font-bold ">DESIGN</h1>
                         <p>I can design the site based on your needs and suggestions. I can also design the site from
                             scratch and consult you during the job.</p>
 
                     </div>
 
-                    <div class="w-[450px]">
-                        <img src="./img/about-img3.svg" alt="">
+                    <div class="max-w-[450px] flex flex-col items-center justify-center">
+                        <img src="/github-project/img/about-img3.svg" alt="">
                         <h1 class="text-[22px] font-bold">DEVELOPMENT</h1>
                         <p>I can design the site based on your needs and suggestions. I can also design the site from
                             scratch and consult you during the job.</p>
@@ -97,18 +107,19 @@
                     </div>
                 </div>
 
-                <div class="flex items-center justify-center flex-col mt-15">
+                <div class="flex items-center justify-center flex-col mt-8">
                     <img src="./img/anout-img-4.svg" alt="">
                     <h1 class="text-[22px] font-bold">MAINTENANCE</h1>
-                    <p>In case of any problems or the need for changes, I can introduce new functionalities and
+                    <p class="p-4">In case of any problems or the need for changes, I can introduce new functionalities and
 
                 </div>
+                 <div class="flex items-center justify-center  ">
+                <img src="./img/about img one.svg" alt="" class=" sm:mt-10 -mt-5 pb-10">
 
             </div>
-            <div class="flex items-center justify-center  ">
-                <img src="./img/about img one.svg" alt="" class=" mt-30">
 
             </div>
+           
 
         </section>
         <!-- about section end -->
@@ -116,45 +127,49 @@
         <!-- service section start -->
 
 
-        <section class="max-w-[1280px] h-lvh bg-[#E5E5E5] ">
+        <section class="max-w-[1280px] h-screen bg-[#E5E5E5]  ">
             <div class=" flex items-center justify-center gap-4">
                 <button
-                    class="px-18 py-2 border-5 text-3xl font-bold font-sans hover:border-green-600  duration-400">SKILLS
+                    class="px-18 py-2 border-5 text-3xl font-bold font-sans hover:border-green-600 mt-5 duration-400">SKILLS
                 </button>
             </div>
 
-            <div class="flex items-center justify-center gap-50 mt-20">
+             
+
+            </div>
+
+            <div class="flex items-center justify-center sm:grid-cols-2 lg:gap-50 gap-10 sm:gap-20 md:gap-30 mt-20">
                 <div>
-                    <img src="./img/html.svg" alt="">
+                    <img src="./img/html.svg" alt="" class="md:size-[110px] sm:size-[80px] size-[80px]">
                     <p class="text-2xl mt-4 tracking-widest font-bold">HTML5</p>
                 </div>
 
                 <div>
-                    <img src="./img/css.svg" alt="">
+                    <img src="./img/css.svg" alt="" class="md:size-[110px] sm:size-[80px] size-[80px]">
                     <p class="text-2xl mt-4 tracking-widest font-bold ">CSS3</p>
                 </div>
 
                 <div>
-                    <img src="./img/saass.svg" alt="">
+                    <img src="./img/saass.svg" alt=" " class="md:size-[110px] sm:size-[80px] size-[80px]">
                     <p class="text-2xl tracking-widest font-bold mt-4 ">SASS</p>
                 </div>
 
             </div>
 
 
-            <div class="flex items-center justify-center gap-50 mt-20">
+            <div class="flex items-center justify-center grid-cols-2  lg:gap-50 gap-10 sm:gap-20 md:gap-30 mt-20">
                 <div>
-                    <img src="./img/html.svg" alt="">
+                    <img src="./img/html.svg" alt="" class="md:size-[110px] sm:size-[80px] size-[80px]">
                     <p class="text-2xl mt-4 tracking-widest font-bold">HTML5</p>
                 </div>
 
                 <div>
-                    <img src="./img/css.svg" alt="">
+                    <img src="./img/css.svg" alt="" class="md:size-[110px] sm:size-[80px] size-[80px]">
                     <p class="text-2xl mt-4 tracking-widest font-bold ">CSS3</p>
                 </div>
 
                 <div>
-                    <img src="./img/saass.svg" alt="">
+                    <img src="./img/saass.svg" alt="" class="md:size-[110px] sm:size-[80px] size-[80px]">
                     <p class="text-2xl tracking-widest font-bold mt-4 ">SASS</p>
                 </div>
 
@@ -168,10 +183,10 @@
 
         <!-- design section start -->
         <section>
-            <div class="">
-                <div><img src="./img/desgin 1.svg" alt="" class="size-full " /></div>
+            <div class="relative ">
+                <div><img src="./img/desgin 1.svg" alt="" class="size-full "></div>
                 <p
-                    class=" px-4 py-3 -mt-80 ml-120 w-[280px] h-[70px] border-4 border-black-600 duration-300 hover:border-green-500 text-3xl  font-bold uppercase  tracking-[8px] absolute ">
+                    class=" px-4 py-3 xl:-mt-80 sm:-mt-40 md:-mt-85 md:ml-95 -mt-35 ml-25 sm:ml-60 xl:ml-120 w-[280px] h-[70px] border-4 border-black-600 duration-300 hover:border-green-500 text-3xl  font-bold uppercase  tracking-[8px] absolute ">
                     PORTFOLIO</p>
 
 
@@ -243,11 +258,11 @@
 
         <!-- end demo -->
 
-        <section class="w-full h-lvh bg-[#E5E5E5] ">
+        <section class="w-full h-full bg-[#E5E5E5]">
 
             <div class="flex items-center justify-center flex-col pt-5 gap-y-6">
-                <button class="py-3 px-8 border-6 font-bold text-2xl tracking-[5px] ">CONTACT</button>
-                <p>My name is Tomasz Gajda, I’m a third year Applied Computer Science student <br>at AGH University of
+                <button class="py-3 px-8 border-6 font-bold text-2xl tracking-[5px] duration-300 hover:border-green-400 ">CONTACT</button>
+                <p class="p-4">My name is Tomasz Gajda, I’m a third year Applied Computer Science student <br>at AGH University of
                     Science and Technology in Cracow, Poland. </p>
                 <img src="./img/about img one.svg" alt="">
             </div>
@@ -255,14 +270,15 @@
             <div>
                 <div class="">
                     <ul class="flex items-center justify-center flex-col mt-10 font-bold gap-8 ">
-                        <li><input type="text" class="border-l-4 border-b-4 p-2 focus:outline-none" placeholder="ENTER YOUR NAME*"></li>
+                        <li><input type="text" class="border-l-4 border-b-4 p-2 focus:outline-none"
+                                placeholder="ENTER YOUR NAME*"></li>
                         <li><input type="email" class="border-l-4 border-b-4 p-2 " placeholder="ENTER YOUR EMAIL*"></li>
                         <li><input type="number" class="border-l-4 border-b-4 p-2" placeholder="PHONE NUMBER"></li>
                         <li><input type="text" class="border-l-4 border-b-4 p-2" placeholder="YOUR MESSAGE*"></li>
 
                     </ul>
                     <div class="flex items-center justify-center mt-8">
-                        <button class="border-x-4 px-10 text-xl font-bold">SUBMIT</button>
+                        <button class="border-x-4 px-10 text-xl font-bold mb-5">SUBMIT</button>
                     </div>
                 </div>
 
